@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça os quatro pilares do Pensamento Computacional em um site acessível para todos.">
+  <title>Pensamento Computacional para Todos</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">
+    Pular para o conteúdo principal
+  </a>
+
+  <header class="topo">
+    <a class="logo" href="#inicio" aria-label="Página inicial">
+      <span aria-hidden="true">◇</span> PenseTech
+    </a>
+
+    <nav aria-label="Navegação principal">
+      <a href="#pilares">Os pilares</a>
+      <a href="#acessibilidade">Acessibilidade</a>
+      <a href="#atividade">Atividade</a>
+    </nav>
+
+    <div class="controles" aria-label="Controles de acessibilidade">
+      <button id="aumentar" type="button"
+        aria-label="Aumentar tamanho da fonte">A+</button>
+      <button id="diminuir" type="button"
+        aria-label="Diminuir tamanho da fonte">A-</button>
+      <button id="contraste" type="button"
+        aria-pressed="false">Alto contraste</button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="hero-texto">
+        <span class="etiqueta">TECNOLOGIA E EDUCAÇÃO</span>
+        <h1>Grandes ideias começam com <span>pequenos passos.</span></h1>
+        <p>
+          Descubra como o Pensamento Computacional nos ajuda a
+          resolver problemas de maneira lógica, criativa e organizada.
+          Um conhecimento para todos, sem barreiras.
+        </p>
+        <a class="botao principal" href="#pilares">
+          Explorar os quatro pilares
+        </a>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orb orb1">01</div>
+        <div class="orb orb2">10</div>
+        <div class="orb orb3">11</div>
+        <div class="orb orb4">00</div>
+        <div class="simbolo">&lt;/&gt;</div>
+      </div>
+    </section>
+
+    <section class="secao" id="pilares">
+      <div class="titulo-secao">
+        <span class="etiqueta">APRENDA NA PRÁTICA</span>
+        <h2>Os quatro pilares</h2>
+        <p>Quatro maneiras de transformar problemas em soluções.</p>
+      </div>
+
+      <div class="grade">
+        <article class="cartao">
+          <div class="icone" aria-hidden="true">🧩</div>
+          <span class="numero">PILAR 01</span>
+          <h3>Decomposição</h3>
+          <p>
+            Dividir um problema grande em partes menores e mais
+            fáceis de resolver.
+          </p>
+          <p class="exemplo"><strong>Exemplo:</strong> organizar uma viagem
+            separando transporte, hospedagem e alimentação.</p>
+        </article>
+
+        <article class="cartao">
+          <div class="icone" aria-hidden="true">🔍</div>
+          <span class="numero">PILAR 02</span>
+          <h3>Reconhecimento de padrões</h3>
+          <p>
+            Identificar semelhanças e repetições que ajudam a
+            compreender situações.
+          </p>
+          <p class="exemplo"><strong>Exemplo:</strong> perceber que o ônibus
+            chega em horários que se repetem.</p>
+        </article>
+
+        <article class="cartao">
+          <div class="icone" aria-hidden="true">💡</div>
+          <span class="numero">PILAR 03</span>
+          <h3>Abstração</h3>
+          <p>
+            Focar nas informações importantes e deixar de lado
+            detalhes que não são necessários.
+          </p>
+          <p class="exemplo"><strong>Exemplo:</strong> usar um mapa com
+            ruas e destinos sem mostrar cada objeto da cidade.</p>
+        </article>
+
+        <article class="cartao">
+          <div class="icone" aria-hidden="true">⚙️</div>
+          <span class="numero">PILAR 04</span>
+          <h3>Algoritmos</h3>
+          <p>
+            Criar uma sequência de passos organizados para
+            alcançar um objetivo.
+          </p>
+          <p class="exemplo"><strong>Exemplo:</strong> seguir uma receita
+            com instruções na ordem correta.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="acessibilidade" id="acessibilidade">
+      <div>
+        <span class="etiqueta">INCLUSÃO DIGITAL</span>
+        <h2>Tecnologia acessível é tecnologia para todos.</h2>
+        <p>
+          Um site inclusivo considera diferentes formas de perceber,
+          compreender e navegar pelo conteúdo.
+        </p>
+      </div>
+
+      <div class="recursos">
+        <article>
+          <span aria-hidden="true">⠿</span>
+          <h3>Para pessoas cegas</h3>
+          <p>
+            Compatibilidade com leitores de tela, textos descritivos,
+            títulos organizados e navegação por teclado.
+          </p>
+        </article>
+
+        <article>
+          <span aria-hidden="true">👋</span>
+          <h3>Para pessoas surdas</h3>
+          <p>
+            Conteúdo explicado por escrito, instruções visuais
+            e possibilidade de adicionar vídeos com legendas
+            e tradução em Libras.
+          </p>
+        </article>
+
+        <article>
+          <span aria-hidden="true">◐</span>
+          <h3>Para diferentes necessidades</h3>
+          <p>
+            Alto contraste, fonte ajustável, linguagem simples
+            e elementos com nomes acessíveis.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao quiz" id="atividade">
+      <div class="titulo-secao">
+        <span class="etiqueta">TESTE SEUS CONHECIMENTOS</span>
+        <h2>Desafio interativo</h2>
+        <p>Qual pilar consiste em dividir um problema em partes menores?</p>
+      </div>
+
+      <div class="quiz-opcoes" role="group" aria-label="Alternativas">
+        <button class="opcao" type="button" data-resposta="errada">
+          Abstração
+        </button>
+        <button class="opcao" type="button" data-resposta="certa">
+          Decomposição
+        </button>
+        <button class="opcao" type="button" data-resposta="errada">
+          Algoritmos
+        </button>
+        <button class="opcao" type="button" data-resposta="errada">
+          Reconhecimento de padrões
+        </button>
+      </div>
+
+      <p id="resultado" role="status" aria-live="polite">
+        Escolha uma alternativa para conferir sua resposta.
+      </p>
+    </section>
+
+    <section class="ouvir">
+      <div>
+        <h2>Prefere ouvir o conteúdo?</h2>
+        <p>Use a leitura em voz alta para ouvir a apresentação dos pilares.</p>
+      </div>
+      <div class="acoes-audio">
+        <button class="botao principal" id="ouvir" type="button">
+          Ouvir apresentação
+        </button>
+        <button class="botao secundario" id="parar" type="button">
+          Parar leitura
+        </button>
+      </div>
+      <p id="status-audio" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 PenseTech — Aprender sem barreiras.</p>
+    <a href="#inicio">Voltar ao início ↑</a>
+  </footer>
+</body>
+</html>
